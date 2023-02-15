@@ -1,0 +1,50 @@
+.registration {
+  display: none; 
+  /*не забыть убрать */
+}
+.btnBlue {
+  background-color: #6c1bdb;
+  padding: 5px 15px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+}
+.containerSign {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(192, 155, 155);
+  z-index: 1;
+}
+.SignIn {
+  background-color: #fff;
+  width: 470px;
+  padding: 40px 40px 5px 40px;
+}
+.SignIn input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 40px;
+}
+.SignIn p {
+  margin-bottom: 25px;
+}
+.acc {
+  text-align: center;
+}
